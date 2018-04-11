@@ -6,12 +6,9 @@ Not all endpoints have been tested as yet, but this is just a skeleton
 
 There is an example.php file in the root directory to make a quote call to get started.
 
-```
-
 ## Install
-
 Via Composer
-```
+
 
 ``` bash
 $ composer require sacheen/php-root-insurance-api
