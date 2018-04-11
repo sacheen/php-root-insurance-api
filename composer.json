@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Sacheen\\Root\\": "src"
+            "SD\\Root\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Sacheen\\Root\\": "tests"
+            "SD\\Root\\": "tests"
         }
     },
     "scripts": {
