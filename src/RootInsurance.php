@@ -113,10 +113,10 @@ class RootInsurance
      * @param null $dateOfBirth
      * @param null $email
      * @param null $cellphone
-     * @param array $appData
+     * @param \stdClass|null $appData
      * @return string
      */
-    public function createPolicyHolder($idNumber, $IdType = 'id', $idCountry, $firstName, $lastName, $dateOfBirth = null, $email = null, $cellphone = null, $appData = [])
+    public function createPolicyHolder($idNumber, $IdType = 'id', $idCountry, $firstName, $lastName, $dateOfBirth = null, $email = null, $cellphone = null, \stdClass $appData = null)
     {
         $body = json_encode([
                 'id' => [
@@ -201,10 +201,10 @@ class RootInsurance
 
     /**
      * @param $applicationId
-     * @param array $appData
+     * @param \stdClass|null $appData
      * @return string
      */
-    public function issuePolicy($applicationId, $appData = [])
+    public function issuePolicy($applicationId, \stdClass $appData = null)
     {
         $body = json_encode([
                 'application_id' => $applicationId,
