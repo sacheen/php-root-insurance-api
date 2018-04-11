@@ -11,6 +11,7 @@ There is an example.php file in the root directory to make a quote call to get s
 ## Install
 
 Via Composer
+```
 
 ``` bash
 $ composer require sacheen/php-root-insurance-api
