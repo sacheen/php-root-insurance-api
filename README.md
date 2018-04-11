@@ -14,6 +14,10 @@ Via Composer
 $ composer require sacheen/php-root-insurance-api
 ```
 
+Run the example, update the example.php to use your api key.
+``` bash
+$ php example.php
+```
 
 ```
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
